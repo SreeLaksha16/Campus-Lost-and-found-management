@@ -1,0 +1,3 @@
+C:/Users/HP/Desktop/CampusFindAInew/CampusFindAI/build/CMakeFiles/campusfind_server.dir
+C:/Users/HP/Desktop/CampusFindAInew/CampusFindAI/build/CMakeFiles/edit_cache.dir
+C:/Users/HP/Desktop/CampusFindAInew/CampusFindAI/build/CMakeFiles/rebuild_cache.dir

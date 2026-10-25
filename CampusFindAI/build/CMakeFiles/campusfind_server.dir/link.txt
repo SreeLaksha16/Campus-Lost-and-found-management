@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\campusfind_server.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\campusfind_server.dir/objects.a @CMakeFiles\campusfind_server.dir\objects1.rsp
+C:\msys64\ucrt64\bin\g++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\campusfind_server.dir/objects.a -Wl,--no-whole-archive -o campusfind_server.exe -Wl,--out-implib,libcampusfind_server.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\campusfind_server.dir\linkLibs.rsp
