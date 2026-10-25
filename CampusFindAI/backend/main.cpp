@@ -901,7 +901,13 @@ int main() {
         setJson(res, arr);
     });
 
-    int port = 8080;
+   int port = 8080;
+   if (const char* envPort = std::getenv("PORT")) {
+       try {
+          port = std::stoi(envPort);
+        } catch (...) {
+         }
+       }
     std::cout << "CampusFind AI backend listening on http://localhost:" << port << "\n";
     std::cout << "Frontend served from ../frontend (open http://localhost:" << port << "/ )\n";
     svr.listen("0.0.0.0", port);
