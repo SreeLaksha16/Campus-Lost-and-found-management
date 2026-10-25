@@ -10,4 +10,5 @@ RUN cmake -S . -B build -DCMAKE_BUILD_TYPE=Release && cmake --build build -j2
 
 EXPOSE 10000
 
-CMD ["sh", "-c", "./build/campusfind_server"]
+WORKDIR /app/backend
+CMD ["sh", "-c", "../build/campusfind_server"]
